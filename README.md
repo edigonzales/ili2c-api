@@ -4,7 +4,7 @@ In `libs/` there is a "native image" ready (fat) `ili2c.jar`. It's the result of
 
 I cannot use the original `ili2c-core` and `ili2c-tool` since `ili2c-tool` contains the gui classes, which break the native-image build. If this will change in the near future I still need to figure out if I can use the same `native-image.properties` and `reflection-config.properties` files and use the same approach when building the shared library.
 
-Build fat jar (	out of sheer laziness) and build the native shared library:
+Build fat jar (out of sheer laziness) and build the native shared library:
 ```
 ./gradlew clean build shadowJar
 native-image --no-server -cp build/libs/ili2c-utils-all.jar --shared -H:Name=libili2c
