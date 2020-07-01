@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-#include <libfoobar.h>
+#include <libili2c.h>
 
 int main(int argc, char **argv) {
     graal_isolate_t *isolate = NULL;
@@ -12,9 +12,10 @@ int main(int argc, char **argv) {
         return 1;
     }
 
+    char * fileName = argv[1];
+
     printf("Hallo Welt!\n");
-    //printf("%s\n", getLastModelName(thread, "./SO_AGI_AV_GB_Administrative_Einteilungen_Publikation_20180822.ili"));
-    getLastModelName(thread, "S");
+    printf("%s\n", getLastModelName(thread, fileName));
 
     if (graal_detach_thread(thread) != 0) {
         fprintf(stderr, "graal_detach_thread error\n");

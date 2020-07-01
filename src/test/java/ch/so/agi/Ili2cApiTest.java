@@ -3,7 +3,7 @@ package ch.so.agi;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
-class Ili2cUtilsTest {
+class Ili2cApiTest {
     
 //    @Test 
 //    void testSomeLibraryMethod() {
