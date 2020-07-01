@@ -13,8 +13,6 @@ import ch.interlis.ili2c.config.Configuration;
 import ch.interlis.ili2c.metamodel.TransferDescription;
 import ch.interlis.ilirepository.IliManager;
 
-//https://www.graalvm.org/sdk/javadoc/org/graalvm/nativeimage/c/function/CEntryPoint.html
-
 public class Ili2cApi {
     
     @CEntryPoint(name = "getLastModelName")
