@@ -20,3 +20,9 @@ Run program:
 ./getlastmodelname ./SO_AGI_AV_GB_Administrative_Einteilungen_Publikation_20180822.ili
 ./getlastmodelname /Users/stefan/Downloads/Nutzungsplanung_V1_1.ili
 ```
+
+Links:
+- https://www.graalvm.org/sdk/javadoc/org/graalvm/nativeimage/c/function/CEntryPoint.html
+- https://www.rapidwright.io/docs/Call_RapidWright_From_CPP.html
+- https://towardsdatascience.com/code-in-java-execute-as-c-921f5db45f20
+- https://chrisseaton.com/truffleruby/tenthings/
