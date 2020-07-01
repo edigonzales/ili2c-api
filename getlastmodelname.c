@@ -13,8 +13,6 @@ int main(int argc, char **argv) {
     }
 
     char * fileName = argv[1];
-
-    printf("Hallo Welt!\n");
     printf("%s\n", getLastModelName(thread, fileName));
 
     if (graal_detach_thread(thread) != 0) {

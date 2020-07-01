@@ -7,7 +7,7 @@ I cannot use the original `ili2c-core` and `ili2c-tool` since `ili2c-tool` conta
 Build fat jar (out of sheer laziness) and build the native shared library:
 ```
 ./gradlew clean build shadowJar
-native-image --no-server -cp build/libs/ili2c-utils-all.jar --shared -H:Name=libili2c
+native-image --no-server -cp build/libs/ili2c-api-all.jar --shared -H:Name=libili2c
 ```
 
 Compile "dummy" C program:
